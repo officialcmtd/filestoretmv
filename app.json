@@ -11,39 +11,39 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "6181659619:AAGC5R5xyjHAwOfA9G0mu5GY-sawqNAwCdI"
+      "value": "6415531049:AAFmpPCc-xLUw4q5O-pakTZzSfvVCl8J-9I"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "6094386527"
+      "value": "1032438381"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": "25632035"
+      "value": "22642704"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://tyrionfilesbot:Ruban9124@filesharebot.xhhwoqn.mongodb.net/?retryWrites=true&w=majority"
+      "value": "mongodb+srv://RUBAN9124:karthi9124@teamuhdfiles.rimoh00.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharebot"
+      "value": "TEAMUHDFILESBOT"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": "896d8f9929d3e00d2dae14646329fe3b"
+      "value": "878698447412869d1b30bf929f32e86f"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1001685470809"
+      "value": "-1001981587599"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-1001654526637"
+      "value": "-1001903311417"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}❤️\n\nI am a file share bot. ❤️Thank You❤️"
+      "value": "Hello {first}❤️\n\nI am a File Share Bot Of @TEAMUHD. ❤️Thank You for using our community❤️"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
@@ -51,12 +51,12 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "6094386527",
+      "value": "1032438381",
       "required": false
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "True",
+      "value": "False",
       "required": false
     }
   },
