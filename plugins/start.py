@@ -1,8 +1,3 @@
-#(©)CodeXBotz
-
-
-
-
 import os
 import asyncio
 from pyrogram import Client, filters, __version__
@@ -55,11 +50,11 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Please wait...")
+        temp_msg = await message.reply("Please wait...😅")
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Something went wrong..!")
+            await message.reply_text("Something went wrong..!😢\n Contact Admin @reteamadminbot")
             return
         await temp_msg.delete()
 
@@ -88,8 +83,27 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("🎬 MAIN CHANNEL 🎬", url="https://t.me/+gqpU_4qsYAFmY2U1")
+                ],
+                [
+                    InlineKeyboardButton("📽️ MOVIE REQUEST GROUP 📽️", url="https://t.me/+EGBu5vb1vo9jMDE1")
+                ],
+                [
+                    InlineKeyboardButton("🎬 UHD MOVIES/SERIES 🎬", url="https://t.me/+abo3FyAP1hE5MTI9")
+                ],
+                [
+                    InlineKeyboardButton("😎 MORE FROM US 📢", callback_data = "morefromus")
+                ],
+                [
+                    InlineKeyboardButton("📽️ BACKUP CHANNEL 📽️", url="https://t.me/+b8RpV89fK11kMTY9")
+                ],
+                [
+                    InlineKeyboardButton("🔉 DISCUSSION 🔉", url="https://t.me/+YcSmRvCe9xs0YjU1"),
+                    InlineKeyboardButton("❔ HELP ❓", url="https://t.me/+YcSmRvCe9xs0YjU1")
+                ],
+                [
+                    InlineKeyboardButton("❕ ABOUT ❗", callback_data = "about"),
+                    InlineKeyboardButton("🔒 CLOSE 🔒", callback_data = "close")
                 ]
             ]
         )
