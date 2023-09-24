@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "22642704"))
 API_HASH = os.environ.get("API_HASH", "878698447412869d1b30bf929f32e86f")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001981587599"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1032438381"))
@@ -23,7 +23,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1032438381"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://RUBAN9124:karthi9124@teamuhdfiles.rimoh00.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "TEAMUHDFILESBOT")
 
 #force sub channel id, if you want enable force sub
@@ -44,7 +44,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}❤️\n\n<b>You need to join in my Channel to use me..!😉\n\nKindly Please join our Channel...!\n Thank You For using Our Community...❤️</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "{filename}\n\n╭─── • ❰ @TEAMUHD❱ • ────➤\n┣ ▫️ @REMOVIESOFFICIAL\n┣ ▫️ @TEAMUHDBACKUP\n╰─────── • ◆ • ───────➤\n\n😊Share And Support Us❤️")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
