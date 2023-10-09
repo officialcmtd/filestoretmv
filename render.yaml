@@ -14,14 +14,10 @@ services:
         sync: false
       - key: ADMINS
         sync: false
-      - key: DATABASE_NAME
-        sync: false
       - key: DATABASE_URL
         sync: false
       - key: START_MESSAGE
         sync: false
       - key: FORCE_SUB_CHANNEL
-        sync: false
-      - key: FORCE_SUB_MESSAGE
         sync: false
     autoDeploy: false 
