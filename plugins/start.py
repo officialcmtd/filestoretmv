@@ -86,20 +86,17 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("🎬 MAIN CHANNEL 🎬", url="https://t.me/+gqpU_4qsYAFmY2U1")
                 ],
                 [
-                    InlineKeyboardButton("📽️ MOVIE REQUEST GROUP 📽️", url="https://t.me/+EGBu5vb1vo9jMDE1")
-                ],
-                [
                     InlineKeyboardButton("🎬 UHD MOVIES/SERIES 🎬", url="https://t.me/+abo3FyAP1hE5MTI9")
                 ],
                 [
                     InlineKeyboardButton("😎 MORE FROM US 📢", callback_data = "morefromus")
                 ],
                 [
-                    InlineKeyboardButton("📽️ BACKUP CHANNEL 📽️", url="https://t.me/+b8RpV89fK11kMTY9")
+                    InlineKeyboardButton("📽️ BACKUP CHANNEL 📽️", url="https://t.me/TEAMUHDBACKUP")
                 ],
                 [
                     InlineKeyboardButton("🔉 DISCUSSION 🔉", url="https://t.me/+YcSmRvCe9xs0YjU1"),
-                    InlineKeyboardButton("❔ HELP ❓", url="https://t.me/+YcSmRvCe9xs0YjU1")
+                    InlineKeyboardButton("❔ HELP ❓", url="https://t.me/reteamadminbot")
                 ],
                 [
                     InlineKeyboardButton("❕ ABOUT ❗", callback_data = "about"),
