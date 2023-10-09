@@ -32,7 +32,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}❤️\n\nI am a File Share Bot Of @TEAMUHD. ❤️Thank You for using our community❤️")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}❤️\n\nI am a File Share Bot Of @TEAMUHD. ❤️Thank You for using our community❤️</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1032438381").split()):
@@ -41,10 +41,10 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}❤️\n\n<b>You need to join in my Channel to use me..!😉\n\nKindly Please join our Channel...!\n Thank You For using Our Community...❤️</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Hello {first}❤️\n\nYou need to join in my Channel to use me..!😉\n\nKindly Please join our Channel...!\n Thank You For using Our Community...❤️</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "{filename}\n\n╭─── • ❰ @TEAMUHD❱ • ────➤\n┣ ▫️ @REMOVIESOFFICIAL\n┣ ▫️ @TEAMUHDBACKUP\n╰─────── • ◆ • ───────➤\n\n😊Share And Support Us❤️")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>{filename}\n\n╭─── • ❰ @TEAMUHD❱ • ────➤\n┣ ▫️ @REMOVIESOFFICIAL\n┣ ▫️ @TEAMUHDBACKUP\n╰─────── • ◆ • ───────➤\n\n😊Share And Support Us❤️</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
@@ -53,7 +53,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Hey Don't Send Me Messages Directly.\n I'm only File Share bot! of @REMOVIESOFFICIAL.\n\n If you need one bot like me means\nContact Here @RETEAMADMINBOT."
+USER_REPLY_TEXT = "<b>❌Hey Don't Send Me Messages Directly.\n I'm only File Share bot! of @REMOVIESOFFICIAL.\n\n If you need one bot like me means\nContact Here @RETEAMADMINBOT.</b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1265420220)
