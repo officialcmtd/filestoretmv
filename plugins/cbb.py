@@ -40,10 +40,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📽️NEW TAMIL MOVIES 1🎬", url=f"https://t.me/+jLLpz0jvWEw4Njll")
-                    ],
-                    [
-                        InlineKeyboardButton("📽️NEW TAMIL MOVIES 2🎬", url=f"https://t.me/+abo3FyAP1hE5MTI9")
+                        InlineKeyboardButton("📽️NEW TAMIL MOVIES 🎬", url=f"https://t.me/+abo3FyAP1hE5MTI9")
                     ],
                     [
                         InlineKeyboardButton("📽️ALL NEW SERIES🎬", url=f"https://t.me/+vuoYEhW__ZBiYzZl")
@@ -55,7 +52,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                         InlineKeyboardButton("📽️MULTI LANGUAGE MOVIES🎬", url=f"https://t.me/+pHuPLagTQXM3Y2Y1")
                     ],
                     [
-                        InlineKeyboardButton("🔉 DISCUSSION 🔉", url="https://t.me/+rucqp8Ao-soyMDU1"),
+                        InlineKeyboardButton("❔ HELP ❓", url="https://t.me/reteamadminbot"),
                         InlineKeyboardButton("🔒 CLOSE 🔒", callback_data = "close")
                     ]
                 ]
