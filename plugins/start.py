@@ -95,7 +95,6 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("📽️ BACKUP CHANNEL 📽️", url="https://t.me/TEAMUHDBACKUP")
                 ],
                 [
-                    InlineKeyboardButton("🔉 DISCUSSION 🔉", url="https://t.me/+YcSmRvCe9xs0YjU1"),
                     InlineKeyboardButton("❔ HELP ❓", url="https://t.me/reteamadminbot")
                 ],
                 [
